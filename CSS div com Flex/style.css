@@ -24,13 +24,15 @@ div img{
     width: 350px;
     height: 200px;
     object-fit: cover;
-    padding: 40px;
-    border-radius: 50px;
+    
+    border-radius: 10px;
 }
 .text h2{
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 .text p{
-    width: 95%;
+    width: 90%;
     text-align: justify;
+    margin-left: 50px;
 }
