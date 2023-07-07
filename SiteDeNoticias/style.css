@@ -107,7 +107,7 @@ main img{
 }
 .textinferior p{
     color: var(--dark-gray);
-    text-align: justify;
+    
     font-size: 1.3rem;
     line-height: 2rem;
 }
@@ -141,7 +141,7 @@ main img{
         margin-right: 2rem;
     }
     .caixaesquerda img{
-        width: 65rem;
+        min-width: 65rem;
         height: 20rem;
         object-fit: cover;
     }
@@ -162,6 +162,11 @@ main img{
     .rodape{
         margin: 0;
         width: 80rem;
+        transition: all 400ms;
+        
+    }
+    .rodape img:hover{
+        transform: scale(1.1);
     }
 
 }
