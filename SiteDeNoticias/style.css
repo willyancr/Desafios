@@ -22,11 +22,14 @@ body{
     padding: 4rem 5rem;
     margin: 0 auto;
 }
-header{
+.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 4rem;
+    margin-bottom: 4rem;  
+}
+.menu ul{
+    display: none;
 }
 main img{
     width: 32.9rem;
@@ -80,4 +83,85 @@ main img{
 .border{
     border-bottom: 1px solid var(--dark-gray);
     margin-bottom: 2rem;
+}
+
+.rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 3rem;
+}
+.rodape img{
+    width: 100px;
+    height: 147px;
+    margin: 0;
+    margin-right: 2.5rem;
+}
+.textinferior h1{
+    color: var(--gray-blue);
+    margin-bottom: 1rem;
+}
+.textinferior h2{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.textinferior p{
+    color: var(--dark-gray);
+    text-align: justify;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+@media (min-width: 700px){
+
+    .page{
+        max-width: 100rem;
+    }
+    .menu img:nth-child(2){
+        display: none;
+    }
+    .menu ul{
+        display: flex;
+        list-style: none;
+        gap: 3rem;
+        font-weight: bold;
+    }
+    .menu ul a{
+        text-decoration: none;
+        color: var(--dark-gray);
+    }
+    .menu ul a:hover{
+        cursor: pointer;
+        color: var(--red);
+    }
+    main{
+        display: flex;
+    }
+    .caixaesquerda{
+        margin-right: 2rem;
+    }
+    .caixaesquerda img{
+        width: 65rem;
+        height: 20rem;
+        object-fit: cover;
+    }
+    .texttop{
+        display: grid;
+        grid-template-columns: 0.5fr 0.5fr;
+    }
+    .texttop h1{
+        font-size: 4rem;
+    }
+    .texttop button{
+        width: 50%;
+    }
+    .caixainferior{
+        display: flex;
+        gap: 2rem;
+    }
+    .rodape{
+        margin: 0;
+        width: 80rem;
+    }
+
 }
