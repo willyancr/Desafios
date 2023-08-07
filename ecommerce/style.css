@@ -68,6 +68,9 @@ body{
     width: 4rem;
     height: 4rem;
 }
+.right-menu a {
+    text-decoration: none;
+}
 .box-main{
     display: flex;
     padding: 0 6rem;
