@@ -157,7 +157,7 @@ body{
     margin-right: 1rem;
  }
  #cart:hover{
-    background-color: var(--paleorange);
-    color: var(--orange);
+    background-color: hsl(26, 100%, 30%);
+    color: var(--paleorange);
  }
 
