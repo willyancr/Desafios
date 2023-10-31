@@ -58,8 +58,6 @@ pokemonPrevious.addEventListener('click', () => {
         searchResults -= 1
         pokemonSearch.value = searchResults
         updatePokemon(searchResults)
-    }else if(isNaN(parseInt(pokemonSearch.value)) || parseInt(pokemonSearch.value) <=1){
-        alert('>> Número invalido <<')
     }
     
 })
