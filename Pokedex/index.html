@@ -3,14 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokédex</title>
+    
     <link rel="shortcut icon" href="favicons/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     
-    <title>Pokédex</title>
-    
+    <script src="js/script.js" defer></script>
+
 </head>
 <body>
     <main>
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/53.png" alt="pokemon" class="pokemon-image">
+
+        <div class="pokemon-data">
+            <span class="pokemon-id">53</span> - 
+            <span class="pokemon-name">persian</span>
+        </div>
+
+        <form class="form">
+            <input type="search" placeholder="Número ou Nome" required class="pokemon-search">
+        </form>
+
+        <div class="buttons">
+            <button class="button button-prev">&lt; Anterior</button>
+            <button class="button button-next">Próximo &gt;</button>
+        </div>
+
         <img src="image/pokedex.png" alt="pokedex" class="pokedex">
     </main>
 </body>
