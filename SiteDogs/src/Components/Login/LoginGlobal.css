@@ -1,0 +1,48 @@
+.login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  min-height: 100vh;
+}
+.responsiveImageLogin{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.loginForm{
+  margin-top: 7rem;
+  padding: 2rem;
+}
+.loginForm label{
+  display: block;
+  margin-top: .8rem;
+  margin-left: .1rem;
+}
+.loginForm Input{
+  width: 80%;
+}
+.loginForm Button{
+  margin-bottom: .5rem;
+}
+.lostPassaword p{
+  color: #898989;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+.messageForm{
+  font-size: medium;
+  color: red;
+}
+
+@media (max-width: 40rem) {
+  .login{
+    grid-template-columns: 1fr;
+  }
+  .responsiveImageLogin{
+    display: none;
+  }
+  .loginForm{
+    margin-top: 5rem;
+    padding-left: 2rem;
+  }
+}

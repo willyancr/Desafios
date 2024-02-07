@@ -1,0 +1,22 @@
+.header{
+  display: block;
+  box-shadow: 0 1px 1px #0000001a;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background: white;
+  top: 0px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+}
+.nav i{
+  color: black;
+}
+.login{
+  text-decoration: none;
+}
+

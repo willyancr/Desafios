@@ -1,0 +1,28 @@
+.acessos{
+  background: white;
+  box-shadow: 0 10px 20px #0000001a;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.acessos p{
+  font-size: 1.6rem;
+}
+.graphContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.graph{
+  background: white;
+  box-shadow: 0 10px 20px #0000001a;
+  height: 400px;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 40rem) {
+  .graphContainer{
+    grid-template-columns: 1fr;
+  }
+}

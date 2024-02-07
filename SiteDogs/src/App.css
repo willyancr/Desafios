@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  color: #333;
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+.AppBody{
+  flex: 1;
+}
+.container{
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.efeito{
+  animation: efeito .5s ease;
+}
+.title{
+  display: block;
+  font-size: 2.4rem;
+  letter-spacing: .1rem;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.title span{
+  position: absolute;
+  background: #fb1;
+  height: 25px;
+  width: 25px;
+  border-radius: .3rem;
+  top: 28px;
+  left: -7px;
+  z-index: -1;
+}
+h1, h2, h3, h4, p{
+  margin: 0;
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+button, input{
+  display: block;
+  font-size: 1rem;
+  color: #333;
+}
+@keyframes efeito{
+  from{
+      opacity: 1;
+      transform: translate3d(-50px, 0, 0);
+  }
+  to{
+      opacity: 1;
+      transform: translate3d(0,0,0);
+  }
+}
